@@ -1,9 +1,0 @@
-46 error Error: Command failed with exit code 1: git commit -m v0.1.0
-46 error On branch master
-46 error Your branch is up to date with 'origin/master'.
-46 error
-46 error nothing to commit, working tree clean
-46 error     at makeError (/mnt/d/Development/courses/react-enterprise/node_modules/execa/lib/error.js:60:11)
-46 error     at handlePromise (/mnt/d/Development/courses/react-enterprise/node_modules/execa/index.js:118:26)
-46 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-46 error     at async Promise.all (index 0)
