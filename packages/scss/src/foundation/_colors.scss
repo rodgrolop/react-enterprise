@@ -1,0 +1,124 @@
+/*=============================================
+ =            Foundation - colors             =
+ =============================================*/
+
+/**
+ *  This file defines the actual colors that will be used for styling. They will default to the palette
+ *  we defined in the _variable.scss files. This is our defult palette, and devs can override this
+ *  with their own variables.
+ */
+
+/*=============================================
+ =             Global text colors             =
+ =============================================*/
+
+$body-text-color: var(--dse-body-text-color, $dark) !default;
+$body-bg-color: var(--dse-body-bg-color, $white) !default;
+
+/*=====  End of Global  ======*/
+
+/*=============================================
+ =               App bar colors               =
+ =============================================*/
+
+/* Primary */
+$appbar-primary-bg-color: var(--dse-appbar-primary-bg-color, $purple) !default;
+$appbar-primary-font-color: var(
+  --dse-appbar-primary-font-color,
+  $white
+) !default;
+$appbar-primary-icon-inactive-color: var(
+  --dse-appbar-primary-icon-inactive-color,
+  $white
+) !default;
+$appbar-primary-icon-active-color: var(
+  --dse-appbar-primary-icon-active-color,
+  $white
+) !default;
+
+/* Secondary */
+$appbar-secondary-bg-color: var(
+  --dse-appbar-secondary-bg-color,
+  $white
+) !default;
+$appbar-secondary-font-color: var(
+  --dse-appbar-secondary-font-color,
+  $black-high-emphasis
+) !default;
+$appbar-secondary-icon-inactive-color: var(
+  --dse-appbar-secondary-icon-inactive-color,
+  $black-inactive
+) !default;
+$appbar-secondary-icon-active-color: var(
+  --dse-appbar-secondary-icon-active-color,
+  $black-high-emphasis
+) !default;
+
+/* Common */
+$appbar-elevation-1dp: var(--dse-appbar-elevation-1dp, $elevation-1dp) !default;
+
+/*=====  End of App bar  ======*/
+
+/*=============================================
+ =               FAB colors               =
+ =============================================*/
+
+/* Primary */
+$fab-primary-bg-color: var(--dse-fab-primary-bg-color, $purple) !default;
+$fab-primary-font-color: var(--dse-fab-primary-font-color, $white) !default;
+$fab-primary-icon-inactive-color: var(
+  --dse-fab-primary-icon-inactive-color,
+  $white
+) !default;
+$fab-primary-icon-active-color: var(
+  --dse-fab-primary-icon-active-color,
+  $white
+) !default;
+
+/* Secondary */
+$fab-secondary-bg-color: var(
+  --dse-fab-secondary-bg-color,
+  $pale-green
+) !default;
+$fab-secondary-font-color: var(--dse-fab-secondary-font-color, $white) !default;
+$fab-secondary-icon-inactive-color: var(
+  --dse-fab-secondary-icon-inactive-color,
+  $white
+) !default;
+$fab-secondary-icon-active-color: var(
+  --dse-fab-secondary-icon-active-color,
+  $white
+) !default;
+
+/*=====  End of App bar  ======*/
+
+/*=============================================
+ =                  Buttons                   =
+ =============================================*/
+
+$btn-primary-color: var(--dse-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dse-btn-primary-bg, $green) !default;
+$btn-primary-hover: var(--dse-btn-primary-hover, $green-light) !default;
+
+/*=====  End of Buttons  ======*/
+
+/*=============================================
+ =                   Forms                    =
+ =============================================*/
+
+$form-border-color: var(--dse-form-border-color, $white-dark) !default;
+$form-bg-color: var(--dse-form-bg-color, $white) !default;
+$form-bg-option-selected: var(--dse-form-bg-option-selected, $green) !default;
+$form-color-option-selected: var(
+  --dse-form-color-option-selected,
+  $white
+) !default;
+$form-bg-color-hover: var(--dse-form-bg-color-hover, $white-dark) !default;
+$form-color-hover: var(--dse-form-color-hover, $dark) !default;
+$form-color: var(--dse-form-color, $dark) !default;
+$form-bg: var(--dse-form-bg, $white) !default;
+$form-error-color: var(--dse-form-error-color, $red) !default;
+$form-error-border: var(--dse-form-error-border, $red) !default;
+$form-border-focus-color: var(--dse-form-border-focus-color, $red) !default;
+
+/*=====  End of Forms  ======*/
