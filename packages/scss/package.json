@@ -1,6 +1,6 @@
 {
-  "name": "@ds.e/scss",
-  "version": "0.1.6",
+  "name": "@rgl-test/scss",
+  "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
   "private": false,
@@ -45,5 +45,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "a978034f9e62c20d56eaa575dd631e8cda33395a"
+  "gitHead": "914a91360ee87589f09ef5351ca638057b7dd134"
 }
