@@ -40,6 +40,12 @@
     "test": "jest --verbose",
     "test:watch": "yarn test --watch",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --project-token=956b5bcebe5e"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "@ds.e/react@1.0.0",
+  "publishConfig": {
+    "access": "public"
   }
 }
