@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import "@ds.e/scss/lib/Select.css";
 declare const _default: {
     title: string;
