@@ -6,7 +6,7 @@ import "@ds.e/scss/lib/Select.css";
 
 const options = [
   {
-    label: "Strict Black",
+    label: "Hard Black",
     value: "black",
   },
   {
