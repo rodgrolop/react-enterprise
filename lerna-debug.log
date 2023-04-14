@@ -1,6 +1,0 @@
-44 error Error: Command failed with exit code 128: git add -- packages/react/package.json packages/foundation/package.json playgrounds/react/package.json packages/scss/package.json lerna.json
-44 error fatal: Pathspec 'packages/scss/package.json' is in submodule 'packages/scss'
-44 error     at makeError (/mnt/d/Development/courses/react-enterprise/node_modules/execa/lib/error.js:60:11)
-44 error     at handlePromise (/mnt/d/Development/courses/react-enterprise/node_modules/execa/index.js:118:26)
-44 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-44 error     at async Promise.all (index 0)
