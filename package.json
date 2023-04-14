@@ -16,6 +16,9 @@
       "**/normalize-scss"
     ]
   },
+  "resolutions": {
+    "postcss": "^8.4.21"
+  },
   "scripts": {
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
