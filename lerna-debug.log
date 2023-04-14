@@ -1,6 +1,0 @@
-50 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
-50 error remote: Support for password authentication was removed on August 13, 2021.
-50 error remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-50 error fatal: Authentication failed for 'https://github.com/rodgrolop/react-enterprise.git/'
-50 error     at makeError (/mnt/d/Development/courses/react-enterprise/node_modules/execa/lib/error.js:60:11)
-50 error     at handlePromise (/mnt/d/Development/courses/react-enterprise/node_modules/execa/index.js:118:26)
