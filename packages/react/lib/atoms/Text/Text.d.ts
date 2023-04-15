@@ -1,6 +1,6 @@
 import React from "react";
-import { FontSize } from "@ds.e/foundation";
-interface TextProps {
+import { FontSize } from "@rgl-test/foundation";
+export interface TextProps {
     size?: keyof typeof FontSize;
     children: React.ReactNode;
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import { Spacing } from "@ds.e/foundation";
-interface MarginProps {
+import { Spacing } from "@rgl-test/foundation";
+export interface MarginProps {
     space?: keyof typeof Spacing;
     children: React.ReactNode;
     left?: boolean;

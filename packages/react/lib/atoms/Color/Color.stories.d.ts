@@ -1,4 +1,5 @@
-import "@ds.e/scss/lib/Utilities.css";
+/// <reference types="react" />
+import "@rgl-test/scss/lib/Utilities.css";
 declare const _default: {
     title: string;
 };

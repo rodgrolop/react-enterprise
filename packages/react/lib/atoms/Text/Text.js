@@ -1,5 +1,5 @@
 import React from 'react';
-import { FontSize } from '@ds.e/foundation';
+import { FontSize } from '@rgl-test/foundation';
 
 const Text = ({ size = FontSize.base, children }) => {
     const className = `dse-text dse-text-${size}`;
