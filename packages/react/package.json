@@ -45,7 +45,7 @@
     "test:watch": "yarn test --watch",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic --project-token=956b5bcebe5e"
+    "test:chromatic": "chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\""
   },
   "readme": "ERROR: No README data found!",
   "_id": "@rgl-test/react@1.0.0",
