@@ -1,7 +1,7 @@
 import React from "react";
-import { Spacing } from "@ds.e/foundation";
+import { Spacing } from "@rgl-test/foundation";
 
-interface ColorProps {
+export interface ColorProps {
   hexCode: string;
   width?: keyof typeof Spacing;
   height?: keyof typeof Spacing;
