@@ -30,7 +30,13 @@
     "test": "yarn lerna run test",
     "publish": "yarn test && yarn build && yarn lerna publish",
     "commit": "yarn git-cz",
-    "test:chromatic": "yarn lerna test:chromatic"
+    "test:chromatic": "yarn lerna test:chromatic",
+    "build:storybook": "yarn build && yarn lerna run build-storybook"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   },
   "config": {
     "commitizen": {
